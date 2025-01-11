@@ -1,0 +1,29 @@
+:root {
+	--default-space: 10px;
+	--default-color: #000;
+	--default-fontSize: 1em;
+}
+
+body {
+	max-width: fit-content;
+	margin: auto;
+}
+
+h1 {
+	font-family: Garamond;
+	color: var(--default-color);
+	font-weight: normal;
+	font-size: calc(var(--default-fontSize)* 2);
+}
+
+label, p {
+	font-family: Garamond;
+	color: var(--default-color);
+	font-weight: normal;
+	font-size: var(--default-fontSize);
+	letter-spacing: 3px;
+}
+
+button {
+	margin-right: var(--default-space);
+}
